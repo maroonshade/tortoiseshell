@@ -4,6 +4,8 @@ html {
 }
 
 
+/*header*/
+
 header {
   display: flex;
   max-width: 960px;
@@ -80,4 +82,45 @@ margin: 0 auto;
   align-items: center;
   justify-content: space-between;
   margin: 3rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service .paper {
+  width: 3.5rem;
+}
+
+/* info */
+
+.support_contain {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.info {
+  width: 30%;
+  margin-right: 5%;
+
+}
+
+.info .title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+
+/*footer*/
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
 }
